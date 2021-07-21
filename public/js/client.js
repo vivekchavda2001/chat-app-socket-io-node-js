@@ -1,5 +1,5 @@
 
-    const socket = io('http://localhost:8000');
+    const socket = io('https://chatapp-socketio-nodejs.herokuapp.com');
 // const io = require('socket.io')(8000);
 
 
