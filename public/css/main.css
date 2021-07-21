@@ -1,0 +1,67 @@
+.logo{
+    display: block;
+    margin:auto;
+    width:50px;
+    height: 50px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message{
+        
+        width: 24%;
+        padding: 10px;
+        margin:5px 0px;        
+        border-radius:10px;
+}
+.left{
+    float: left;
+    clear: both;
+    background-color: lightblue;
+}
+.right{
+    float: right;
+    clear: both;
+    background-color: lightgreen;
+}
+.timeright{
+    float: right;   
+    margin:0px 12px;   
+}
+.timeleft{
+    float: left;   
+    margin:0px 12px;   
+}
+.commonTime{
+    clear: both;
+    text-justify: auto;
+    font-size: 10px;
+}
+.scroll {
+    height: 20rem;
+    width: 70rem;
+    overflow-y: scroll;
+    
+}
+.typing{
+       
+    margin:17px 12px;        
+    border-radius:10px;
+    float: center;
+    clear: both;
+    text-align: center;
+    
+    
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

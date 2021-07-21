@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>IChat - RealTime Node Socket.io</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src="https://cdn.socket.io/4.1.2/socket.io.min.js"
+        integrity="sha384-toS6mmwu70G0fw54EGlWWeA4z3dyJ+dlXBtSURSKN4vyRFOcxd3Bzjj/AoOwY+Rg"
+        crossorigin="anonymous"></script>
+        
+
+    <script defer src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script defer src='js/client.js'></script>
+
+</head>
+
+<body>
+    <!-- As a heading -->
+    <nav class="navbar navbar-light bg-light pd-10">
+        <span class="navbar-brand mb-0 h1">&nbsp&nbspChatApp</span>
+        <span>Developed by Vivek Chavda&nbsp&nbsp</span>
+    </nav>
+
+    <div class="container rounded">
+        <h2 class="text-center">Welcome To ChatApp</h2>
+        <div class="card scroll" id="chatbox">
+            
+            <div class="card-body">                     
+            </div>
+            <div class="typing">
+            </div>
+        </div>
+        <br />
+        <div class="send" style="width: 100%;">
+            <form id="send-container" action="#"    >
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-11">
+                            <input type="text" class="form-control" name="Messageinp" id="messageInput"
+                                placeholder="Enter Message to send...">
+                        </div>
+                        <div class="col-md-1">
+                            <button type="submit" class="btn btn-primary">send</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </form>
+    </div>
+
+    </div>
+</body>
+</html>
